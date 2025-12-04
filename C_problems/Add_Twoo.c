@@ -1,6 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     struct ListNode *next;
+ * };
+ */
+//Noyte main is note included here only on leet
+
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
     struct ListNode dummy; 
     dummy.next = NULL;
